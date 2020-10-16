@@ -1,4 +1,6 @@
 def conflictTestFunction(param):
   num = param
   num += 10
-  print(num)
+  param = num
+  print("Value: " + str(num))
+  return param
